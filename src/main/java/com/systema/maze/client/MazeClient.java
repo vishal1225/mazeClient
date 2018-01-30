@@ -29,9 +29,7 @@ public class MazeClient {
 
     public static void main(String args[]) throws Exception {
         ApplicationContext applicationContext = SpringApplication.run(MazeClient.class);
-//        SimpleClientHttpRequestFactory clientHttpRequestFactory = new SimpleClientHttpRequestFactory();
-//        Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("ausproxy.au.adp.com", 8080));
-//        clientHttpRequestFactory.setProxy(proxy);
+
         String choice = null;
         Scanner scan = new Scanner(System.in);
         showchoice(scan);
